@@ -65,3 +65,11 @@ Example: Generating other types of games
    **/
 ```
 
+### Supporting this project
+If you are interested in supporting this project, you can help in many ways. Leave a star :star: or make a donation of any value.
+
+### Contributors
+ - [list of contributors]()
+
+### License
+MIT license. See the archive [License](https://github.com/tigoCaval/Lottery-Br/blob/main/LICENSE)
