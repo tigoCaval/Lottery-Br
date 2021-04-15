@@ -1,7 +1,7 @@
 # Number generator for lottery games
 Main lottery games in Brazil (Mega-Sena, Quina, Lotomania and Lotofácil), random number generator.
 
-You also have the option to create your own game
+You also have the option to generate another type of game, with a standard method
 - This package can be used with any PHP application or Frameworks/PHP.
 - Download package: ```composer require tigo/lottery```
 - MIT license. ***Feel free to use this project***. ***Leave a star :star: or make a fork !***
