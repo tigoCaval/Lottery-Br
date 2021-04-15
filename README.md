@@ -27,8 +27,8 @@ Example: using the number generator for lottery games in Brazil
     First parameter: Choose the number of numbers you want to play.
     Second parameter: Number of tickets you want to play.
   **/
-  $game->megaSena(6,2)//
-  $game->quina(5,2)//
+  $game->megaSena(6,2)
+  $game->quina(5,2)
   $game->lotoFacil(15,2);
   $game->lotoMania(50,2);
  ```
