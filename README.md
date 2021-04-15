@@ -9,3 +9,4 @@ You also have the option to create your own game
 *If you found this project useful, consider making a donation to support the developer.* 
 
 [![paypal](https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=4XKSCN658G2WU)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=E84APX2Q5Y6XE)
