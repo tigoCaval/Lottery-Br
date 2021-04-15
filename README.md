@@ -69,7 +69,7 @@ Example: Generating other types of games
 If you are interested in supporting this project, you can help in many ways. Leave a star :star: or make a donation of any value.
 
 ### Contributors
- - [list of contributors](https://github.com/tigoCaval/Lottery-Br)
+ - [list of contributors](https://github.com/tigoCaval/Lottery-Br/graphs/contributors)
 
 ### License
 MIT license. See the archive [License](https://github.com/tigoCaval/Lottery-Br/blob/main/LICENSE)
