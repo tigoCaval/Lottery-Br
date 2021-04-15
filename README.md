@@ -33,3 +33,13 @@ Example: using the number generator for lottery games in Brazil
   $game->lotoFacil(15,2);
   $game->lotoMania(50,2);
  ```
+Example: Generating random numbers and the **Mega-Sena** ticket quantity
+```php
+   print_r($game->megaSena(6,2)) 
+   /**result: 
+   [
+     [0]=> [7,17,31,32,40,47]
+     [1]=> [10,23,35,37,39,40]
+   ]
+   **/
+```
