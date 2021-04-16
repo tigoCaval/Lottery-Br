@@ -52,7 +52,7 @@ Example: Generating other types of games
    Building the random draw rule
    First parameter:  minimum = 20 
    Second parameter: maximum = 30
-   [20,21,22,33,24,25,26,27,28,29,30]
+   [20,21,22,23,24,25,26,27,28,29,30]
   **/
   
   print_r($pattern->makeGame(20, 30, 3, 2));
