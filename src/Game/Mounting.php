@@ -33,7 +33,7 @@ abstract class Mounting
             for($j = 0; $j < $scorer; $j++){ 
                 $value = rand($min, $max);
                 if(!in_array($value, $this->ticket[$i]))
-                   $this->ticket[$i][$j] = $value;
+                   $this->ticket[$i][$j] = str_pad($value,2,0,STR_PAD_LEFT);
                 else
                    $this->ticket[$i][$j] = $this->generateNewNumber($min, $max, $value, $this->ticket[$i]);
             }
@@ -56,7 +56,7 @@ abstract class Mounting
          while(in_array($value, $array)){
             $value = rand($min, $max);
          }     
-         return $value;
+         return str_pad($value,2,0,STR_PAD_LEFT);
      } 
 
 }
