@@ -28,17 +28,18 @@ Example: using the number generator for lottery games in Brazil
     Second parameter: Number of tickets you want to play.
     return: array [][].
   **/
-  $game->megaSena(6,2)
-  $game->quina(5,2)
+  $game->megaSena(6,2);
+  $game->quina(5,2);
   $game->lotoFacil(15,2);
   $game->lotoMania(50,2);
+  $game->superSete(7,2);
  ```
 Example: Generating random numbers and the **Mega-Sena** ticket quantity
 ```php
-   print_r($game->megaSena(6,2)) 
+   print_r($game->megaSena(6,2)); 
    /**result: 
    [
-     [0]=> [7,17,31,32,40,47]
+     [0]=> [07,17,31,32,40,47]
      [1]=> [10,23,35,37,39,40]
    ]
    **/
