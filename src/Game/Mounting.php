@@ -23,21 +23,27 @@ abstract class Mounting
       * @param  int $max
       * @param  int $scorer
       * @param  int $quantity
+      * @param  bool $check
       * @return array
       */
-     protected function make($min, $max, $scorer, $quantity)
+     protected function make($min, $max, $scorer, $quantity, $check = true)
      {
          for($i = 0; $i < $quantity; $i++){
             if(!isset($this->ticket[$i]))
                 $this->ticket[$i] = []; 
             for($j = 0; $j < $scorer; $j++){ 
                 $value = rand($min, $max);
-                if(!in_array($value, $this->ticket[$i]))
-                   $this->ticket[$i][$j] = str_pad($value,2,0,STR_PAD_LEFT);
-                else
-                   $this->ticket[$i][$j] = $this->generateNewNumber($min, $max, $value, $this->ticket[$i]);
+                if($check){
+                    if(!in_array($value, $this->ticket[$i]))
+                       $this->ticket[$i][$j] = str_pad($value,2,0,STR_PAD_LEFT);
+                    else
+                       $this->ticket[$i][$j] = $this->generateNewNumber($min, $max, $value, $this->ticket[$i]);
+                }
+                else  
+                  $this->ticket[$i][$j] = str_pad($value,2,0,STR_PAD_LEFT);  
             }
-            asort($this->ticket[$i]);
+            if($check)
+                asort($this->ticket[$i]);
          }
          return $this->ticket;
      }

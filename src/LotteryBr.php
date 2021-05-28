@@ -6,6 +6,7 @@ use Tigo\Lottery\Game\Br\MegaSena;
 use Tigo\Lottery\Game\Br\Quina;
 use Tigo\Lottery\Game\Br\LotoFacil;
 use Tigo\Lottery\Game\Br\LotoMania;
+use Tigo\Lottery\Game\Br\SuperSete;
 
 /**
  * LotteryBr
@@ -78,6 +79,18 @@ class LotteryBr
     public function lotoMania($scorer, $quantity)
     {
         return $this->method->doFactory(new LotoMania(), $scorer, $quantity);
+    }
+    
+    /**
+     * Get superSete
+     *
+     * @param  int $scorer
+     * @param  int $quantity
+     * @return array
+     */
+    public function superSete($scorer, $quantity)
+    {
+        return $this->method->doFactory(new SuperSete(), $scorer, $quantity);
     }
        
 }
